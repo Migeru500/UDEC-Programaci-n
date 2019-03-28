@@ -1,0 +1,39 @@
+1.
+
+Las colecciones son el conjunto de herramientas que permiten utilizar estructuras de datos con facilidad.
+
+2.
+
+Las colecciones se utilizan con ciertas clases e interfaces.
+
+Las clases son las distintas estructuras de datos que ofrece Java.
+Las interfaces son métodos que son opcionales para cada estructura y que son implementados por el programador.
+
+3.
+
+Una estructura tipo lista enlazada usa la siguiente implementación:
+
+ArrayList nombre = new ArrayList();
+
+4.
+
+iterator()
+
+Sirve para poder acceder a los métodos que permiten recorrer una estructura de datos específica con facilidad. Su funcionamiento depende de la clase a la que
+pertenezca el objeto.
+
+hasNext()
+
+Indica si la estructura tiene un elemento al cual aún no se haya accedido.
+
+sort()
+
+Sirve para ordenar los objetos de una estructura de acuerdo al criterio establecido en el método compareTo() de la clase a la que pertenece el objeto.
+
+search()
+
+Busca un objeto en la estructura llamada pila y retorna la posición del primero que encuentre, si no lo encuentra retorna -1.
+
+binarySearch()
+
+Ejecuta una búsqueda de un elemento de un arreglo usando el algoritmo de búsqueda binaria.
